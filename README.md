@@ -1,3 +1,5 @@
+(В архиве содержатся файлы агентов, доски и модели для олламы и пипер/The archive contains agent files, boards and models for the ollama and piper)
+
 # -Simba-Voice-Assistant-Distributed-System-with-Blackboard-Architecture
 это пример - рабочая базовая модель, простая и универсальная, разбирайте ее или допиливайте | This is a working base model, simple and universal - disassemble or refine it as needed
 Это мой первый проэкт, мне помогли вдохновиться, научиться и это сделать: хороший человек Паша и ИИ: GitHub Copilot, Qwen, DeepSeek - за что я выражаю большую благодарность!
