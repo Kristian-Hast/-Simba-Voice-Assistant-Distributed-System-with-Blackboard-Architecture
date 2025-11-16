@@ -6,6 +6,19 @@
 This is my first project, and I'm deeply grateful to a great person named Pasha, and to AI tools—GitHub Copilot, Qwen, and DeepSeek—for inspiring me, teaching me, and helping me bring it to life.  
 I'm sharing it mainly to publish the "blackboard" concept, as I believe it's a simple and practical solution that can be further upgraded for highly complex, multi-agent conversations—if desired (just my opinion, haven't tested it yet).
 
+activate:
+WAKE_WORDS = [
+    "симб", "симба", "симби", "симка", "симпа", "сим", 
+    "симбик", "симон", "симоне", "симоней", "симонейка",
+    "simba", "simbi", "simby", "simbya", "simbee",
+    "симбоче", "симбочка", "симбочик", "симбочок"
+]
+
+def is_wake_word(text):
+    """Проверяет, содержит ли текст слово-активатор"""
+    text = " " + text.lower() + " "  # Добавляем пробелы для проверки границ слов
+    return any(f" {word} " in text for word in WAKE_WORDS)
+
 # Голосовой ассистент "Симба": распределенная система с архитектурой "черной доски"
 
 ## Общее описание
