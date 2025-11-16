@@ -1,4 +1,6 @@
-(В архиве содержатся файлы агентов, доски и модели для олламы и пипер/The archive contains agent files, boards and models for the ollama and piper)
+(Слушает и отвечает.
+В архиве содержатся файлы агентов и доски. модели для олламы и пипер использовал "llama-3.1-8b-instruct-q5_k_m" и "ru_RU-irina-medium" / Listens and speaks.
+The archive contains agent files and boards. The models for llama and piper were "llama-3.1-8b-instruct-q5_k_m" and "ru_RU-irina-medium.")
 
 # -Simba-Voice-Assistant-Distributed-System-with-Blackboard-Architecture
 это пример - рабочая базовая модель, простая и универсальная, разбирайте ее или допиливайте | This is a working base model, simple and universal - disassemble or refine it as needed
